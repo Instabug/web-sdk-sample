@@ -1,0 +1,27 @@
+{
+  "name": "instabug-sdk",
+  "homepage": "https://github.com/Instabug/web-sdk-sample",
+  "authors": [
+    "admin@instabug.com"
+  ],
+  "description": "the famous in-app bug reporting tool web sdk",
+  "main": "js/instabug-sdk.min.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "instabug",
+    "web-sdk",
+    "bug",
+    "in-app",
+    "reporting"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
