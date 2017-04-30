@@ -1,11 +1,27 @@
-# Instabug web SDK
+# Instabug web SDK 1.1.1-beta
 
-Instabug web sdk is a javascript library to add ability to report bugs from your website and report it to Instabug dashboard.
+## Overview
+Instabug web sdk is a javascript library provides an easy way to report bugs from your website or webapp.
 
-### Install Instabug
-to include instabug web sdk to your website just copy the below lines into the end of your page `<body>` tag
+To use the sdk you need to have `application_token`, you  can get it from your [Instabug Dashboard](https://dashboard.instabug.com)
+
+## Installation
+### Requirements
+Instabug Web SDK requires no special requirements, and has no dependecies on other liberaries or frameworks, and has been tested in all modern browsers with `LocalStorage` capability
+
+#### Manual Installation
+You can include instabug web sdk to your website just copy the below lines into the end of your page `<body>` tag
 ```html
 <script src='https://s3.amazonaws.com/instabug-pro/sdk_releases/instabugsdk-1.1.1.min.js'></script>
+```
+#### `bower` installation (recommended)
+You can install the SDK using
+```shell
+bower install instabug-sdk --save
+```
+### Initialize the SDK
+After including the sdk js file, you can start it by invoke the `.init()` method and pass the application token as parameter
+```html
 <script>
   ibgSdk.init({
      token: <INSTABUG_APP_TOKEN>
@@ -13,11 +29,12 @@ to include instabug web sdk to your website just copy the below lines into the e
 </script>
 ```
 
-### API Documentation
+### API Refrence
 
 #### `.init(options)`
-the init function is used to used to inintialize the sdk for the first time, it accepts the options object as parameter, 
-the `options` object in now accept only the `token`.
+the init function is used to used to initialize the SDK and render the report bug button.
+##### Parameters
+**options**: `Object` _required_ -  pass the application `token`
 
 #### `.disable()`
 used to hide the report bug button
