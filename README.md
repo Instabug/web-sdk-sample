@@ -1,5 +1,4 @@
-# Instabug web SDK 1.1.1-beta
-
+# # Instabug web SDK 1.1.2-beta
 ## Overview
 Instabug web sdk is a javascript library provides an easy way to report bugs from your website or webapp.
 
@@ -41,3 +40,12 @@ used to hide the report bug button
 
 #### `.enable()`
 used to show the report bug button
+
+#### `.invoke()`
+show the report bug view without clicking on the `report bug` button,
+
+* You can use this function to start the reporting bug process programmatically from your own script,
+By run `ibgSdk.invoke()` after initialize the sdk
+
+#### `.dismiss()`
+cancel annotations and close all instabug sdk windows
