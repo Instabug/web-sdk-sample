@@ -18,6 +18,11 @@ You can install the SDK using
 ```shell
 bower install instabug-sdk --save
 ```
+#### `npm` installation
+You can install the SDK using
+```shell
+npm install instabug-sdk --save
+```
 ### Initialize the SDK
 After including the sdk js file, you can start it by invoke the `.init()` method and pass the application token as parameter
 ```html
