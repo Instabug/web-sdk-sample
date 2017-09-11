@@ -1,4 +1,4 @@
-# Instabug web SDK 1.1.4-beta
+# Instabug web SDK 1.2.0-beta
 ## Overview
 Instabug web sdk is a javascript library provides an easy way to report bugs from your website or webapp.
 
@@ -11,7 +11,7 @@ Instabug Web SDK requires no special requirements, and has no dependecies on oth
 #### Manual Installation
 You can include instabug web sdk to your website just copy the below lines into the end of your page `<body>` tag
 ```html
-<script src='https://s3.amazonaws.com/instabug-pro/sdk_releases/instabugsdk-1.1.4-beta.min.js'></script>
+<script src='https://s3.amazonaws.com/instabug-pro/sdk_releases/instabugsdk-1.2.0-beta.min.js'></script>
 ```
 #### `bower` installation (recommended)
 You can install the SDK using
