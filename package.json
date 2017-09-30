@@ -1,6 +1,6 @@
 {
   "name": "instabug-sdk",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "the famous in-app bug reporting tool web sdk",
   "main": "js/instabug-sdk.min.js",
   "scripts": {
