@@ -1,4 +1,11 @@
-# Instabug web SDK 1.2.1-beta
+# Instabug web SDK beta
+
+Instabug makes it effortless for your [users and beta testers to report bugs](https://instabug.com/bug-reporting) and submit their feedback about your web app. Users can attach an annotated screenshot to better describe the bug. All done within your app with zero interruption to their experience!
+
+With each feedback or bug your users submit, we capture all the details that you need to know automatically, to make it reproducing and fixing those bugs much easier.
+
+For more info, visit [Instabug.com](https://instabug.com).
+
 ## Overview
 Instabug web sdk is a javascript library provides an easy way to report bugs from your website or webapp.
 
